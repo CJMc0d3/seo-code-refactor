@@ -8,35 +8,35 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
+header nav {
+    padding-top: 20px;
+    margin-right: 11px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-.header div ul {
+header nav {
     list-style-type: none;
 }
 
-.header div ul li {
+header nav li {
     display: inline;
     margin-left: 17px;
 }
@@ -50,7 +50,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.background-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -75,7 +75,7 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -188,7 +188,7 @@ p {
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -196,5 +196,6 @@ p {
 }
 
 .footer h2 {
+    justify-content: center;
     font-size: 20px;
 }
